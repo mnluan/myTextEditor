@@ -143,7 +143,7 @@ class Editor():
 if __name__ == "__main__":
     root = Tk()
     root.iconbitmap("img\editor.ico")
-    root.wm_state('zoomed')
+    
     editor = Editor(root)
     editor.main()
     root.mainloop()
